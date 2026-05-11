@@ -490,42 +490,6 @@ h1, h2, h3, h4, h5, h6 {
     object-fit: cover;
 }
 
-.about-tool-showcase {
-    position: relative;
-    border-radius: var(--radius-lg);
-    overflow: hidden;
-    box-shadow: var(--shadow-lg);
-    aspect-ratio: 4/3;
-}
-
-.about-bg-img {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-    display: block;
-}
-
-.about-tool-overlay {
-    position: absolute;
-    inset: 0;
-    display: flex;
-    align-items: flex-end;
-    justify-content: flex-end;
-    padding: 1.5rem;
-}
-
-.about-tool-img {
-    width: 72%;
-    height: auto;
-    object-fit: contain;
-    mix-blend-mode: multiply;
-    filter: drop-shadow(0 12px 28px rgba(0, 0, 0, 0.45));
-    transition: transform 0.5s ease;
-}
-
-.about-tool-showcase:hover .about-tool-img {
-    transform: scale(1.06) translateY(-8px);
-}
 
 /* ==========================================================================
    Services Section
