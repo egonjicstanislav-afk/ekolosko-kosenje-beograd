@@ -232,6 +232,13 @@ h1, h2, h3, h4, h5, h6 {
     color: var(--clr-accent);
 }
 
+.logo-img {
+    height: 54px;
+    width: auto;
+    display: block;
+    mix-blend-mode: multiply;
+}
+
 .navbar.scrolled .logo {
     color: var(--clr-primary);
 }
