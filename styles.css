@@ -507,26 +507,24 @@ h1, h2, h3, h4, h5, h6 {
 
 .about-tool-overlay {
     position: absolute;
-    bottom: 0;
-    right: 0;
-    width: 65%;
-    padding: 1rem;
-    background: linear-gradient(135deg, transparent 0%, rgba(0,0,0,0.35) 100%);
+    inset: 0;
     display: flex;
     align-items: flex-end;
     justify-content: flex-end;
+    padding: 1.5rem;
 }
 
 .about-tool-img {
-    width: 100%;
+    width: 72%;
     height: auto;
     object-fit: contain;
-    filter: drop-shadow(0 8px 24px rgba(0, 0, 0, 0.5));
+    mix-blend-mode: multiply;
+    filter: drop-shadow(0 12px 28px rgba(0, 0, 0, 0.45));
     transition: transform 0.5s ease;
 }
 
 .about-tool-showcase:hover .about-tool-img {
-    transform: scale(1.05) translateY(-6px);
+    transform: scale(1.06) translateY(-8px);
 }
 
 /* ==========================================================================
