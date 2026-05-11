@@ -534,10 +534,31 @@ h1, h2, h3, h4, h5, h6 {
     transform: scaleX(1);
 }
 
+.service-tool-img {
+    height: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 1rem;
+}
+
+.service-tool-img img {
+    max-height: 140px;
+    width: auto;
+    object-fit: contain;
+    transition: transform 0.4s ease;
+}
+
+.service-card:hover .service-tool-img img {
+    transform: scale(1.08) translateY(-4px);
+}
+
+.service-tool-img--icon {
+    font-size: 4rem;
+}
+
 .card-icon {
-    font-size: 3rem;
-    margin-bottom: 1.5rem;
-    display: inline-block;
+    display: none;
 }
 
 .service-card h3 {
